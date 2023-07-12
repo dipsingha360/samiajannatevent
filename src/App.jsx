@@ -1,7 +1,13 @@
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+
 function App() {
   return (
     <>
-      <h1 className="text-sky-300">Hello</h1>
+      <Navbar />
+      <Home />
+      <Footer />
     </>
   );
 }
